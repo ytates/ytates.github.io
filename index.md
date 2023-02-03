@@ -15,7 +15,7 @@ For this project, I explored what a good analytics PowerPoint presentation shoul
 
 ---
 #### [External Link Project](https://www.linkedin.com/pulse/food-delivery-services-marketing-analysis-using-excel-yolanda-tates/)
-[<img src="images/?raw=true"/>](https://www.linkedin.com/pulse/food-delivery-services-marketing-analysis-using-excel-yolanda-tates/)
+[<img src="images/Red And Maroon Food Delivery Service Twitter Post.jpg?raw=true"/>](https://www.linkedin.com/pulse/food-delivery-services-marketing-analysis-using-excel-yolanda-tates/)
 My write up for my marketing analysis data project using Excel. 
 
 
