@@ -1,10 +1,43 @@
 title: Yolanda Tates # your name (or website title) here
 logo: "/images/IMG_2198.JPG?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Data-Driven Marketer 
+  Data-Driven Marketer
   <br>
-  Hello! I'm Yolanda. I'm a data-driven digital marketing professional with skills in SEO, email marketing, social media ads, and data analysis. 
-  <a href="https://www.linkedin.com/in/yolandatates/">View My LinkedIn Profile</a> 
-  
-theme: jekyll-theme-minimal
+  Hello! I'm Yolanda. I'm a data-driven digital marketing professional with skills in SEO, email marketing, social media ads, and data analysis. I love learning new things, and sports have always been a big part of my life. I'm excited to continue growing my skills and helping businesses achieve their goals.
+  <a href="https://www.linkedin.com/in/yolandatates/">View My LinkedIn Profile</a>
+
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+
+permalink: /:title/
+
+collections:
+  posts:
+    output: true
+    permalink: /:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+paginate: 5
+paginate_path: "/page:num/"
