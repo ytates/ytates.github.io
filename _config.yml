@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 title: Yolanda Tates # your name (or website title) here
 logo: "/images/IMG_2198.JPG?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
@@ -41,3 +42,15 @@ plugins:
 
 paginate: 5
 paginate_path: "/page:num/"
+=======
+title: Yolanda Tates # your name (or website title) here
+logo: "/images/IMG_2198.JPG?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  Data-Driven Marketer
+  <br>
+  Hello! I'm Yolanda. I'm a data-driven digital marketing professional with skills in SEO, email marketing, social media ads, and data analysis. I love learning new things, and sports have always been a big part of my life. I'm excited to continue growing my skills and helping businesses achieve their goals.
+  <a href="https://www.linkedin.com/in/yolandatates/">View My LinkedIn Profile</a>
+
+theme: jekyll-theme-minimal
+google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+>>>>>>> 6b0b5bc35d32989808a055cd99b3c9a7c280f28b

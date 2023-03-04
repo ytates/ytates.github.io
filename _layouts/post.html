@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: default
 ---
@@ -12,3 +13,19 @@ layout: default
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+=======
+---
+layout: default
+---
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+{{content}}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
+>>>>>>> 6b0b5bc35d32989808a055cd99b3c9a7c280f28b
