@@ -1,5 +1,7 @@
 ---
 layout: post
+tags: data
+author: Yolanda Tates
 ---
 
 As a data analyst, I'm always excited to take on new challenges and explore ways to present complex information in an easily understandable way. Recently, I worked on a data project analyzing the State of Massachusetts education data. I chose the Massachusetts school system because they are always at the forefront of education in their public schools. With a focus on student success and equity, I sought to discover how the school system could use data to improve key critical areas.
