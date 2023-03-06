@@ -26,3 +26,11 @@ What are the top math schools in the state?</p>
 <li><a href="http://example.com/">Project 5 Title</a></li>
 </ul>
 <hr>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
