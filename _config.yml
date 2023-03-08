@@ -37,6 +37,7 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins:
+  - github-pages
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
